@@ -23,10 +23,15 @@ nmap <Leader>s <Plug>(easymotion-s4)
 
 " atajos para nerdcoment
 " estan por defecto
-"
+" 
 " <leader>cc --> comenta
 " <leader>cn --> comenta
 " <leader>c<space> --> descomenta
 " <leader>cs --> comneta lo seleccionado
 " <leader>cu --> descomenta lo seleccionado
 " <leader>cA --> agrega comentario al final
+"
+" atajos para multi linea
+" control n --> para empezar
+" control flechas --> para seleccionar
+" n N --> para moverce arriva y abajo

@@ -45,5 +45,8 @@ call plug#begin('~/.config/nvim/plugged')
    " comentador de lineas
    Plug 'preservim/nerdcommenter'
 
+   " multiples lineas
+   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
