@@ -42,6 +42,8 @@ call plug#begin('~/.config/nvim/plugged')
    " cierra etiquetas html
    Plug 'alvan/vim-closetag'
 
+   " comentador de lineas
+   Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
