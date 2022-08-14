@@ -20,3 +20,4 @@ nmap <Leader><CR> :NERDTreeFind<CR>
 
 nmap <Leader>f <Plug>(easymotion-s2)
 nmap <Leader>s <Plug>(easymotion-s4)
+

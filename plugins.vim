@@ -1,5 +1,5 @@
 " plugins instalados
-
+ 
 call plug#begin('~/.config/nvim/plugged')
    " autocompleta parentesis
    Plug 'jiangmiao/auto-pairs'
@@ -38,6 +38,10 @@ call plug#begin('~/.config/nvim/plugged')
    " barra de tareas
    Plug 'vim-airline/vim-airline'
    Plug 'vim-airline/vim-airline-themes'  " Temas para airline
+
+   " cierra etiquetas html
+   Plug 'alvan/vim-closetag'
+
 
 call plug#end()
 
