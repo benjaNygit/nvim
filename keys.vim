@@ -41,3 +41,16 @@ nmap <Leader>C :Commits<CR>
 " control n --> para empezar
 " control flechas --> para seleccionar
 " n N --> para moverce arriva y abajo
+"
+" para dividor en ventanas
+" :sp archivo --> horizontal
+" :vs archivo --> vertical
+" :close --> cierra la ventana
+"
+" para pestañas
+" :tabnew archivo --> crea una pestaña
+" :tabclose --> cierra una pestaña
+"
+" para moverce entre memorias
+" :b + numero
+" :b y usar tab
