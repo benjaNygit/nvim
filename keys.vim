@@ -8,7 +8,6 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>a ggVG
 
 " indentados
-
 vnoremap < <gv
 vnoremap > >gv
 
@@ -20,6 +19,13 @@ nmap <Leader><CR> :NERDTreeFind<CR>
 
 nmap <Leader>f <Plug>(easymotion-s2)
 nmap <Leader>s <Plug>(easymotion-s4)
+
+nnoremap <Leader>- 15<C-e>
+nnoremap <Leader>_ 15<C-y>
+
+nmap <Leader>F :Files<CR>
+nmap <Leader>S :GFiles?<CR>
+nmap <Leader>C :Commits<CR>
 
 " atajos para nerdcoment
 " estan por defecto

@@ -48,5 +48,9 @@ call plug#begin('~/.config/nvim/plugged')
    " multiples lineas
    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
+   " buscador de ficheros
+   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+   Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
