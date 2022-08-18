@@ -28,6 +28,7 @@ augroup javascript_folding
 augroup END
 
 let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
 
 " tema onedark
 set termguicolors  " Activa true colors en la terminal
