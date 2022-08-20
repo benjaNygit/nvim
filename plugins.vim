@@ -52,5 +52,8 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
    Plug 'junegunn/fzf.vim'
 
+   " para ver la ventana en uso mas grande
+   Plug 'dm1try/golden_size'
+
 call plug#end()
 
