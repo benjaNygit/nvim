@@ -22,6 +22,9 @@ let g:javascript_plugin_jsdoc=1
 let g:javascript_plugin_ngdoc=1
 let g:javascript_plugin_flow=1
 
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
 augroup javascript_folding
    au!
    au FileType javascript setlocal foldmethod=syntax
@@ -31,7 +34,7 @@ let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 
 " tema onedark
-set termguicolors  " Activa true colors en la terminal
+" set termguicolors  " Activa true colors en la terminal
 colorscheme onedark  " Activa tema onedark
 
 " Activar deoplete al iniciar Neovim

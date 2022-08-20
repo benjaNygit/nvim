@@ -5,7 +5,19 @@ let mapleader = " "
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 
+nmap <Leader>t :sv<CR>:terminal<CR>
+" para volver al modo normal control + \ + n
+
 nnoremap <Leader>a ggVG
+
+" cambiar buffer
+nnoremap <C-q> :bprev<CR>
+nnoremap <C-w> :bnext<CR>
+
+" para ventanas
+nnoremap <C-b> :sp<CR>
+nnoremap <C-v> :vs<CR>
+nnoremap <C-c> :close<CR>
 
 " indentados
 vnoremap < <gv
@@ -36,17 +48,12 @@ nmap <Leader>C :Commits<CR>
 " <leader>cs --> comneta lo seleccionado
 " <leader>cu --> descomenta lo seleccionado
 " <leader>cA --> agrega comentario al final
-"
+
 " atajos para multi linea
 " control n --> para empezar
 " control flechas --> para seleccionar
 " n N --> para moverce arriva y abajo
-"
-" para dividor en ventanas
-" :sp archivo --> horizontal
-" :vs archivo --> vertical
-" :close --> cierra la ventana
-"
+
 " para pestañas
 " :tabnew archivo --> crea una pestaña
 " :tabclose --> cierra una pestaña
