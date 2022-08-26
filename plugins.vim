@@ -55,5 +55,8 @@ call plug#begin('~/.config/nvim/plugged')
    " para ver la ventana en uso mas grande
    Plug 'dm1try/golden_size'
 
+   " coc
+   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 

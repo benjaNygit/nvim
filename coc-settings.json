@@ -1,0 +1,11 @@
+{
+	// tsserver
+	"tsserver.enable": true,
+	"tsserver.formatOnType": true,
+	"tsserver.enableJavascript": true,
+	"typescript.suggest.autoImports": true,
+
+	// json
+	"json.enable": true,
+	"json.format.enable": true
+}

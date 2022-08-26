@@ -17,6 +17,7 @@ syntax enable
 
 source $HOME/.config/nvim/keys.vim
 source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/coc.vim
 
 let g:javascript_plugin_jsdoc=1
 let g:javascript_plugin_ngdoc=1
@@ -53,3 +54,6 @@ let g:airline#extensions#tabline#enabled = 1  " Mostrar buffers abiertos (como p
 let g:airline#extensions#tabline#fnamemod = ':t'  " Mostrar sólo el nombre del archivo
 let g:airline_theme='lighthaus'
 set noshowmode  " No mostrar el modo actual (ya lo muestra la barra de estado)
+
+" tsserver react
+let g:coc_filetype_map=1
