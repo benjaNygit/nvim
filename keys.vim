@@ -16,7 +16,7 @@ nnoremap <C-w> :bnext<CR>
 
 " para ventanas
 nnoremap <C-b> :sp<CR>
-nnoremap <C-v> :vs<CR>
+nnoremap <C-v> :vs<CR><C-l>
 nnoremap <C-c> :close<CR>
 
 " indentados

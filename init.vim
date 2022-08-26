@@ -14,10 +14,13 @@ set smartindent
 set autoindent
 
 syntax enable
+syntax on
 
 source $HOME/.config/nvim/keys.vim
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/coc.vim
+
+highlight Folded ctermfg=yellow ctermbg=gray guifg=yellow guibg=gray
 
 let g:javascript_plugin_jsdoc=1
 let g:javascript_plugin_ngdoc=1
@@ -39,13 +42,13 @@ let NERDTreeQuitOnOpen=1
 colorscheme onedark  " Activa tema onedark
 
 " Activar deoplete al iniciar Neovim
-let g:deoplete#enable_at_startup = 1
+"let g:deoplete#enable_at_startup = 1
 
 " Cerrar automaticamente la ventana de vista previa (donde se muestra documentación, si existe)
-augroup deopleteCompleteDoneAu
-  autocmd!
-  autocmd CompleteDone * silent! pclose!
-augroup END
+"augroup deopleteCompleteDoneAu
+  "autocmd!
+  "autocmd CompleteDone * silent! pclose!
+"augroup END
 
 " Actualizar barra cada 250 mili segundos
 set updatetime=250

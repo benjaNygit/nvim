@@ -1,49 +1,24 @@
 " plugins instalados
  
 call plug#begin('~/.config/nvim/plugged')
-   " autocompleta parentesis
-   Plug 'jiangmiao/auto-pairs'
-   
-   " color syntaxis
-   Plug 'sheerun/vim-polyglot'
-   
-   " lineas indentado
-   Plug 'Yggdroot/indentLine'
-   
-   " tema
-   Plug 'joshdick/onedark.vim'
-
-   " arbol
-   Plug 'scrooloose/nerdtree'
-   
-   " navegar
-   Plug 'christoomey/vim-tmux-navigator'
-   
-   " buscador
-   Plug 'easymotion/vim-easymotion'
-	 
-	 " syntax-babel javascript
-	 Plug 'pangloss/vim-javascript'
-
-   " autocompleado
-   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-   Plug 'Shougo/neco-syntax'  " Fuente general de auto completado
-
-   " cambios git
-   Plug 'airblade/vim-gitgutter'
-
-   " muestra estado archivos, nerdtree
-   Plug 'xuyuanp/nerdtree-git-plugin'
-
-   " barra de tareas
-   Plug 'vim-airline/vim-airline'
+   Plug 'jiangmiao/auto-pairs' " autocompleta parentesis
+   Plug 'sheerun/vim-polyglot' " color syntaxis
+   Plug 'Yggdroot/indentLine' " lineas indentado
+   Plug 'joshdick/onedark.vim' " tema
+   Plug 'scrooloose/nerdtree' " arbol de directorios
+   Plug 'christoomey/vim-tmux-navigator' " navegar entre ventanas
+   Plug 'easymotion/vim-easymotion' " buscador
+	 Plug 'pangloss/vim-javascript' " syntax-babel javascript
+   " autocompleado - conflicto con coc
+   "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+   "Plug 'Shougo/neco-syntax'  " Fuente general de auto completado
+   Plug 'airblade/vim-gitgutter' " cambios git
+   Plug 'xuyuanp/nerdtree-git-plugin' " muestra estado archivos, nerdtree
+   Plug 'vim-airline/vim-airline' " barra de tareas
    Plug 'vim-airline/vim-airline-themes'  " Temas para airline
 
-   " cierra etiquetas html
-   Plug 'alvan/vim-closetag'
-
-   " comentador de lineas
-   Plug 'preservim/nerdcommenter'
+   Plug 'alvan/vim-closetag' " cierra etiquetas html
+   Plug 'preservim/nerdcommenter' " comentador de lineas
 
    " multiples lineas
    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
@@ -52,8 +27,7 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
    Plug 'junegunn/fzf.vim'
 
-   " para ver la ventana en uso mas grande
-   Plug 'dm1try/golden_size'
+   Plug 'dm1try/golden_size' " para ver la ventana en uso mas grande
 
    " coc
    Plug 'neoclide/coc.nvim', {'branch': 'release'}
