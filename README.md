@@ -3,8 +3,8 @@ Este repositorio contiene una configuración para neovim, un editor de texto por
 
 No todo el codigo esta comentado, debido a que mucho es copia y pega de otros repositorios.
 
-![Imagen del editor](imgs/Captura desde 2022-08-27 17-06-03.png)
-
+![Imagen del editor](./imgs/Captura desde 2022-08-27 17-06-03.png)
+ 
 Lista de Plugins
 ---------------- 
 + [ autor-pairs ](https://github.com/jiangmiao/auto-pairs)
