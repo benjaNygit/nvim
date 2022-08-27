@@ -5,7 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'sheerun/vim-polyglot' " color syntaxis
    Plug 'Yggdroot/indentLine' " lineas indentado
    Plug 'joshdick/onedark.vim' " tema
-   Plug 'scrooloose/nerdtree' " arbol de directorios
+   Plug 'preservim/nerdtree' " arbol de directorios
    Plug 'ryanoasis/vim-devicons'
    Plug 'christoomey/vim-tmux-navigator' " navegar entre ventanas
    Plug 'easymotion/vim-easymotion' " buscador
@@ -15,6 +15,7 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'vim-airline/vim-airline' " barra de tareas
    Plug 'vim-airline/vim-airline-themes'  " Temas para airline
 
+   Plug 'tpope/vim-surround' " encierra entre {, ', etc
    Plug 'preservim/nerdcommenter' " comentador de lineas
 
    " multiples lineas
