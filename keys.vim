@@ -8,7 +8,7 @@ nnoremap <Leader>q :q<CR>
 nmap <Leader>t :sv<CR>:terminal<CR>
 " para volver al modo normal control + \ + n
 
-nnoremap <Leader>a ggVG
+nnoremap <C-a> ggVG
 
 " cambiar buffer
 nnoremap <C-q> :bprev<CR>
