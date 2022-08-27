@@ -1,6 +1,8 @@
 " Lenguajes instalados
 " coc-tsserver
 " coc-json
+" coc-markdownlint
+" coc-html
 
 " Some servers have issues with backup files, see #649.
 set nobackup

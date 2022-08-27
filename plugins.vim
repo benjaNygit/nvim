@@ -15,7 +15,6 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'vim-airline/vim-airline' " barra de tareas
    Plug 'vim-airline/vim-airline-themes'  " Temas para airline
 
-   Plug 'alvan/vim-closetag' " cierra etiquetas html
    Plug 'preservim/nerdcommenter' " comentador de lineas
 
    " multiples lineas
