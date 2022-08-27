@@ -1,8 +1,6 @@
 " Lenguajes instalados
 " coc-tsserver
-" coc-explorer
 " coc-json
-" coc-snippets
 
 " Some servers have issues with backup files, see #649.
 set nobackup

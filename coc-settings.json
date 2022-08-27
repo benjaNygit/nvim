@@ -4,8 +4,15 @@
 	"tsserver.formatOnType": true,
 	"tsserver.enableJavascript": true,
 	"typescript.suggest.autoImports": true,
+	"javascript.suggest.autoImports": true,
 
 	// json
 	"json.enable": true,
-	"json.format.enable": true
+	"json.format.enable": true,
+
+	"diagnostic.messageTarget": "float",
+	"diagnostic.checkCurrentLine": true,
+	"diagnostic.virtualText": true,
+	"diagnostic.virtualTextCurrentLineOnly": false,
+	"diagnostic.virtualTextPrefix": "#"
 }

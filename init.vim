@@ -1,5 +1,6 @@
-set termguicolors  " Activa true colors en la terminal
+syntax on
 
+set termguicolors  " Activa true colors en la terminal
 set number
 set mouse=a
 set numberwidth=3
@@ -12,9 +13,7 @@ set conceallevel=0
 set smarttab
 set smartindent
 set autoindent
-
-syntax enable
-syntax on
+set hlsearch
 
 source $HOME/.config/nvim/keys.vim
 source $HOME/.config/nvim/plugins.vim
@@ -38,17 +37,7 @@ let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 
 " tema onedark
-" set termguicolors  " Activa true colors en la terminal
 colorscheme onedark  " Activa tema onedark
-
-" Activar deoplete al iniciar Neovim
-"let g:deoplete#enable_at_startup = 1
-
-" Cerrar automaticamente la ventana de vista previa (donde se muestra documentación, si existe)
-"augroup deopleteCompleteDoneAu
-  "autocmd!
-  "autocmd CompleteDone * silent! pclose!
-"augroup END
 
 " Actualizar barra cada 250 mili segundos
 set updatetime=250

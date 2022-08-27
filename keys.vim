@@ -1,6 +1,6 @@
 " Atajos de teclado
 
-let mapleader = " "
+let mapleader = ","
 
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
@@ -16,10 +16,10 @@ nnoremap <C-w> :bnext<CR>
 
 " para ventanas
 nnoremap <C-b> :sp<CR>
-nnoremap <C-v> :vs<CR><C-l>
+nnoremap <C-v> :vs<CR>
 nnoremap <C-c> :close<CR>
 
-" indentados
+" indentados - presionar 2 veses
 vnoremap < <gv
 vnoremap > >gv
 
@@ -29,8 +29,8 @@ vnoremap <A-j> :move '>+1<CR>-gv
 
 nmap <Leader><CR> :NERDTreeFind<CR>
 
-nmap <Leader>f <Plug>(easymotion-s2)
-nmap <Leader>s <Plug>(easymotion-s4)
+nmap <Leader>n <Plug>(easymotion-s2)
+nmap <Leader>m <Plug>(easymotion-s4)
 
 nnoremap <Leader>- 15<C-e>
 nnoremap <Leader>_ 15<C-y>
@@ -40,7 +40,6 @@ nmap <Leader>S :GFiles?<CR>
 nmap <Leader>C :Commits<CR>
 
 " atajos para nerdcoment
-" estan por defecto
 " 
 " <leader>cc --> comenta
 " <leader>cn --> comenta
@@ -54,10 +53,6 @@ nmap <Leader>C :Commits<CR>
 " control flechas --> para seleccionar
 " n N --> para moverce arriva y abajo
 
-" para pestañas
-" :tabnew archivo --> crea una pestaña
-" :tabclose --> cierra una pestaña
-"
 " para moverce entre memorias
 " :b + numero
 " :b y usar tab

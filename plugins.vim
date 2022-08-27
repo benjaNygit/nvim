@@ -6,12 +6,10 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'Yggdroot/indentLine' " lineas indentado
    Plug 'joshdick/onedark.vim' " tema
    Plug 'scrooloose/nerdtree' " arbol de directorios
+   Plug 'ryanoasis/vim-devicons'
    Plug 'christoomey/vim-tmux-navigator' " navegar entre ventanas
    Plug 'easymotion/vim-easymotion' " buscador
 	 Plug 'pangloss/vim-javascript' " syntax-babel javascript
-   " autocompleado - conflicto con coc
-   "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-   "Plug 'Shougo/neco-syntax'  " Fuente general de auto completado
    Plug 'airblade/vim-gitgutter' " cambios git
    Plug 'xuyuanp/nerdtree-git-plugin' " muestra estado archivos, nerdtree
    Plug 'vim-airline/vim-airline' " barra de tareas
