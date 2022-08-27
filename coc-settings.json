@@ -17,9 +17,9 @@
 	"diagnostic.virtualTextCurrentLineOnly": false,
 	"diagnostic.virtualTextPrefix": "#",
 
-	// markdown
-	//"markdownlint.onOpen": false,
-	//"markdownlint.onChange": false,
-	//"markdownlint.onSave": false
-	
+	// pyright (puthon3)	
+	"pyright.enable": true,
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.diagnosticMode": "workspace"
+
 }
