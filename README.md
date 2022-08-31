@@ -31,4 +31,4 @@ Lenguajes server de COC
 + [ coc-tsserver ](https://github.com/neoclide/coc-tsserver)
 + [ coc-json ](https://github.com/neoclide/coc-json)
 + [ coc-html ](https://github.com/neoclide/coc-html)
-
++ [ coc-pyright ](https://github.com/fannheyward/coc-pyright)
