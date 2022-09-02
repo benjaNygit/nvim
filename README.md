@@ -10,9 +10,7 @@ Lista de Plugins
 + [ autor-pairs ](https://github.com/jiangmiao/auto-pairs)
 + [ vim-polyglot ](https://github.com/sheerun/vim-polyglot)
 + [ indentLine ](https://github.com/Yggdroot/indentLine)
-+ [ onedark.vim ](https://github.com/joshdick/onedark.vim)
 + [ nerdtree ](https://github.com/preservim/nerdtree)
-+ [ vim-devicons ](https://github.com/ryanoasis/vim-devicons)
 + [ vim-tmux-navigator ](https://github.com/christoomey/vim-tmux-navigator)
 + [ vim-easymotion ](https://github.com/easymotion/vim-easymotion)
 + [ vim-javascript ](https://github.com/pangloss/vim-javascript)
@@ -25,6 +23,7 @@ Lista de Plugins
 + [ fzf ](https://github.com/junegunn/fzf)
 + [ golden_size ](https://github.com/dm1try/golden_size)
 + [ coc ](https://github.com/neoclide/coc.nvim)
++ [ayu-vim](https://github.com/Luxed/ayu-vim)
 
 Lenguajes server de COC 
 -----------------------
@@ -32,3 +31,4 @@ Lenguajes server de COC
 + [ coc-json ](https://github.com/neoclide/coc-json)
 + [ coc-html ](https://github.com/neoclide/coc-html)
 + [ coc-pyright ](https://github.com/fannheyward/coc-pyright)
+

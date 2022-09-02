@@ -2,22 +2,25 @@
 
 let mapleader = ","
 
+" guardar y salir
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
-
-nmap <Leader>t :sv<CR>:terminal<CR>
-" para volver al modo normal control + \ + n
-
-nnoremap <C-a> ggVG
 
 " cambiar buffer
 nnoremap <C-q> :bprev<CR>
 nnoremap <C-w> :bnext<CR>
 
 " para ventanas
-nnoremap <C-b> :sp<CR>
-nnoremap <C-v> :vs<CR>
+nmap <Leader>1 :sp<CR> <bar> <C-j> <bar> :Files<CR>
+nmap <Leader>2 :vs<CR> <bar> <C-l> <bar> :Files<CR>
 nnoremap <C-c> :close<CR>
+
+" terminal
+nmap <Leader>3 :sv<CR>:terminal<CR>
+nmap <Leader>4 :vs<CR>:terminal<CR>
+" para volver al modo normal control + \ + n
+
+nnoremap <C-a> ggVG
 
 " indentados - presionar 2 veses
 vnoremap < <gv
@@ -32,9 +35,11 @@ nmap <Leader><CR> :NERDTreeFind<CR>
 nmap <Leader>n <Plug>(easymotion-s2)
 nmap <Leader>m <Plug>(easymotion-s4)
 
+" scroll
 nnoremap <Leader>- 15<C-e>
 nnoremap <Leader>_ 15<C-y>
 
+" fzf
 nmap <Leader>F :Files<CR>
 nmap <Leader>S :GFiles?<CR>
 nmap <Leader>C :Commits<CR>
@@ -53,6 +58,3 @@ nmap <Leader>C :Commits<CR>
 " control flechas --> para seleccionar
 " n N --> para moverce arriva y abajo
 
-" para moverce entre memorias
-" :b + numero
-" :b y usar tab
