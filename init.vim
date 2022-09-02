@@ -21,6 +21,11 @@ source $HOME/.config/nvim/coc.vim
 
 highlight Folded ctermfg=yellow ctermbg=gray guifg=yellow guibg=gray
 
+" tema dark de ayu-vim
+set background=dark
+let g:ayucolor="dark"
+colorscheme ayu
+
 let g:javascript_plugin_jsdoc=1
 let g:javascript_plugin_ngdoc=1
 let g:javascript_plugin_flow=1
@@ -35,9 +40,6 @@ augroup END
 
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
-
-" tema onedark
-colorscheme onedark  " Activa tema onedark
 
 " Actualizar barra cada 250 mili segundos
 set updatetime=250

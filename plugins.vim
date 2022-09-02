@@ -4,9 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
    Plug 'jiangmiao/auto-pairs' " autocompleta parentesis
    Plug 'sheerun/vim-polyglot' " color syntaxis
    Plug 'Yggdroot/indentLine' " lineas indentado
-   Plug 'joshdick/onedark.vim' " tema
    Plug 'preservim/nerdtree' " arbol de directorios
-   Plug 'ryanoasis/vim-devicons'
    Plug 'christoomey/vim-tmux-navigator' " navegar entre ventanas
    Plug 'easymotion/vim-easymotion' " buscador
 	 Plug 'pangloss/vim-javascript' " syntax-babel javascript
@@ -29,6 +27,9 @@ call plug#begin('~/.config/nvim/plugged')
 
    " coc
    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+   " tema
+   Plug 'Luxed/ayu-vim'
 
 call plug#end()
 
