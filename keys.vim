@@ -16,8 +16,8 @@ nmap <Leader>2 :vs<CR> <bar> <C-l> <bar> :Files<CR>
 nnoremap <C-c> :close<CR>
 
 " terminal
-nmap <Leader>3 :sv<CR>:terminal<CR>
-nmap <Leader>4 :vs<CR>:terminal<CR>
+nmap <Leader>= :sv<CR>:terminal<CR>
+nmap <Leader>0 :vs<CR>:terminal<CR>
 " para volver al modo normal control + \ + n
 
 nnoremap <C-a> ggVG
@@ -40,9 +40,9 @@ nnoremap <Leader>- 15<C-e>
 nnoremap <Leader>_ 15<C-y>
 
 " fzf
-nmap <Leader>F :Files<CR>
-nmap <Leader>S :GFiles?<CR>
-nmap <Leader>C :Commits<CR>
+nmap <Leader>3 :Files<CR>
+nmap <Leader>4 :GFiles?<CR>
+nmap <Leader>5 :Commits<CR>
 
 " atajos para nerdcoment
 " 
