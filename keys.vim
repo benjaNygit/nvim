@@ -30,7 +30,7 @@ vnoremap > >gv
 vnoremap <A-k> :move '<-2<CR>-gv
 vnoremap <A-j> :move '>+1<CR>-gv
 
-nmap <Leader><CR> :NERDTreeFind<CR>
+nmap <Leader><CR> :NvimTreeToggle<CR>
 
 nmap <Leader>n <Plug>(easymotion-s2)
 nmap <Leader>m <Plug>(easymotion-s4)

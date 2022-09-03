@@ -10,10 +10,6 @@ augroup javascript_folding
    au FileType javascript setlocal foldmethod=syntax
 augroup END
 
-" NERDTree
-let NERDTreeShowHidden=1
-let NERDTreeQuitOnOpen=1
-
 " tsserver react
 let g:coc_filetype_map=1
 

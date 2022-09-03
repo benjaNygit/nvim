@@ -15,4 +15,7 @@ set background=dark
 let g:ayucolor="dark"
 colorscheme ayu
 
-
+" nvim-tree
+lua << END
+require('nvim-tree').setup()
+END
