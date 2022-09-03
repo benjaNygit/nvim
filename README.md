@@ -16,14 +16,14 @@ Lista de Plugins
 + [ vim-javascript ](https://github.com/pangloss/vim-javascript)
 + [ vim-gitgutter ](https://github.com/airblade/vim-gitgutter)
 + [ nerdtree-git-plugin ](https://github.com/Xuyuanp/nerdtree-git-plugin)
-+ [ vim-airline ](https://github.com/vim-airline/vim-airline)
-+ [ vim-airline-themes ](https://github.com/vim-airline/vim-airline-themes)
 + [ nerdcommenter ](https://github.com/preservim/nerdcommenter)
 + [ vim-visual-multi ](https://github.com/mg979/vim-visual-multi)
 + [ fzf ](https://github.com/junegunn/fzf)
 + [ golden_size ](https://github.com/dm1try/golden_size)
 + [ coc ](https://github.com/neoclide/coc.nvim)
 + [ayu-vim](https://github.com/Luxed/ayu-vim)
++ [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
++ [lualine](https://github.com/nvim-lualine/lualine.nvim)
 
 Lenguajes server de COC 
 -----------------------
@@ -31,4 +31,12 @@ Lenguajes server de COC
 + [ coc-json ](https://github.com/neoclide/coc-json)
 + [ coc-html ](https://github.com/neoclide/coc-html)
 + [ coc-pyright ](https://github.com/fannheyward/coc-pyright)
+
+## Instalaciones necesarias
+Para poder ver la barra de abajo como se muestra, es necesario el plugin
+nvim-web-devicons, y este a su ves requiere de instalar una fuente
+que contenga iconos. En mi caso instale una fuente NERD FORT.
+
++ [NERD FORT](https://www.nerdfonts.com/#downloads)
+
 

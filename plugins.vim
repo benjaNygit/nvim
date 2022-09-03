@@ -10,8 +10,8 @@ call plug#begin('~/.config/nvim/plugged')
 	 Plug 'pangloss/vim-javascript' " syntax-babel javascript
    Plug 'airblade/vim-gitgutter' " cambios git
    Plug 'xuyuanp/nerdtree-git-plugin' " muestra estado archivos, nerdtree
-   Plug 'vim-airline/vim-airline' " barra de tareas
-   Plug 'vim-airline/vim-airline-themes'  " Temas para airline
+   "Plug 'vim-airline/vim-airline' " barra de tareas
+   "Plug 'vim-airline/vim-airline-themes'  " Temas para airline
 
    Plug 'tpope/vim-surround' " encierra entre {, ', etc
    Plug 'preservim/nerdcommenter' " comentador de lineas
@@ -30,6 +30,9 @@ call plug#begin('~/.config/nvim/plugged')
 
    " tema
    Plug 'Luxed/ayu-vim'
+
+   Plug 'nvim-lualine/lualine.nvim'
+   Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
 
