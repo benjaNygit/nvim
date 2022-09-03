@@ -6,6 +6,7 @@ source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/lualine.vim
 source $HOME/.config/nvim/seters.vim
 source $HOME/.config/nvim/leters.vim
+source $HOME/.config/nvim/bufferline.vim
 
 highlight Folded ctermfg=yellow ctermbg=gray guifg=yellow guibg=gray
 

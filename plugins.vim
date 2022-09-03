@@ -31,8 +31,11 @@ call plug#begin('~/.config/nvim/plugged')
    " tema
    Plug 'Luxed/ayu-vim'
 
+	 " barra inferior
    Plug 'nvim-lualine/lualine.nvim'
    Plug 'kyazdani42/nvim-web-devicons'
 
+	 " buffers superiores
+	 Plug 'akinsho/bufferline.nvim'
 call plug#end()
 

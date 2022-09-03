@@ -24,6 +24,7 @@ Lista de Plugins
 + [ayu-vim](https://github.com/Luxed/ayu-vim)
 + [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 + [lualine](https://github.com/nvim-lualine/lualine.nvim)
++ [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 
 Lenguajes server de COC 
 -----------------------
