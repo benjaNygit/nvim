@@ -5,6 +5,7 @@ let mapleader = ","
 " guardar y salir
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
+nnoremap <Leader>Q :qall!<CR>
 
 " cambiar buffer
 nnoremap <C-q> :bprev<CR>
@@ -30,6 +31,7 @@ nmap <Leader>0 :vs<CR>:terminal<CR>
 
 nnoremap <C-a> ggVG
 nnoremap <C-d> Vyp
+nnoremap <C-C> :bdelete!<CR>
 
 " indentados - presionar 2 veses
 vnoremap < <gv
