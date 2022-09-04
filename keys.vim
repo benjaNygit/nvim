@@ -15,12 +15,21 @@ nmap <Leader>1 :sp<CR> <bar> <C-j> <bar> :Files<CR>
 nmap <Leader>2 :vs<CR> <bar> <C-l> <bar> :Files<CR>
 nnoremap <C-c> :close<CR>
 
+" fzf
+nmap <Leader>3 :Files<CR>
+nmap <Leader>4 :GFiles?<CR>
+nmap <Leader>5 :Commits<CR>
+
+nmap <Leader>6 <Plug>(easymotion-w)
+nmap <Leader>7 <Plug>(easymotion-s2)
+
 " terminal
 nmap <Leader>= :sv<CR>:terminal<CR>
 nmap <Leader>0 :vs<CR>:terminal<CR>
 " para volver al modo normal control + \ + n
 
 nnoremap <C-a> ggVG
+nnoremap <C-d> Vyp
 
 " indentados - presionar 2 veses
 vnoremap < <gv
@@ -32,17 +41,9 @@ vnoremap <A-j> :move '>+1<CR>-gv
 
 nmap <Leader><CR> :NvimTreeToggle<CR>
 
-nmap <Leader>n <Plug>(easymotion-s2)
-nmap <Leader>m <Plug>(easymotion-s4)
-
 " scroll
 nnoremap <Leader>- 15<C-e>
 nnoremap <Leader>_ 15<C-y>
-
-" fzf
-nmap <Leader>3 :Files<CR>
-nmap <Leader>4 :GFiles?<CR>
-nmap <Leader>5 :Commits<CR>
 
 " atajos para nerdcoment
 " 
