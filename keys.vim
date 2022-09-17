@@ -42,6 +42,12 @@ vnoremap > >gv
 vnoremap <A-k> :move '<-2<CR>-gv
 vnoremap <A-j> :move '>+1<CR>-gv
 
+" redimencionar alt
+nnoremap <M-j>    :resize -2<CR>
+nnoremap <M-k>    :resize +2<CR>
+nnoremap <M-h>    :vertical resize -2<CR>
+nnoremap <M-l>    :vertical resize +2<CR>
+
 nmap <Leader><CR> :NvimTreeToggle<CR>
 
 " scroll

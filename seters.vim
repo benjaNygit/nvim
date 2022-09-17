@@ -14,6 +14,12 @@ set smarttab
 set smartindent
 set autoindent
 set hlsearch
+set hidden
+set splitbelow
+set splitright
+set t_Co=256
+set nobackup
+set nowritebackup
 
 " Actualizar barra cada 250 mili segundos
 set updatetime=250
