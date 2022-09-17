@@ -27,6 +27,7 @@ nmap <Leader>7 <Plug>(easymotion-s2)
 " terminal
 nmap <Leader>= :sv<CR>:terminal<CR>
 nmap <Leader>0 :vs<CR>:terminal<CR>
+nmap <Leader>t :terminal<CR>
 " para volver al modo normal control + \ + n
 
 nnoremap <C-a> ggVG
