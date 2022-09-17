@@ -1,12 +1,12 @@
 syntax on
 
-source $HOME/.config/nvim/keys.vim
-source $HOME/.config/nvim/plugins.vim
-source $HOME/.config/nvim/coc.vim
-source $HOME/.config/nvim/lualine.vim
-source $HOME/.config/nvim/seters.vim
-source $HOME/.config/nvim/leters.vim
-source $HOME/.config/nvim/bufferline.vim
+source $HOME/.config/nvim/vim/keys.vim
+source $HOME/.config/nvim/vim/plugins.vim
+source $HOME/.config/nvim/vim/seters.vim
+source $HOME/.config/nvim/vim/leters.vim
+source $HOME/.config/nvim/plug/lualine.vim
+source $HOME/.config/nvim/plug/bufferline.vim
+source $HOME/.config/nvim/coc/coc.vim
 
 highlight Folded ctermfg=yellow ctermbg=gray guifg=yellow guibg=gray
 
