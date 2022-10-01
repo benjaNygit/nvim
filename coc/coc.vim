@@ -3,6 +3,7 @@
 " coc-json
 " coc-html
 " coc-pyright
+" coc-sh
 
 " Some servers have issues with backup files, see #649.
 set nobackup

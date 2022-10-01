@@ -19,3 +19,7 @@ colorscheme ayu
 lua << END
 require('nvim-tree').setup()
 END
+
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+

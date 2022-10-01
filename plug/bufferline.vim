@@ -2,6 +2,7 @@ lua << END
 require('bufferline').setup {
 		options = {
 				separator_style = 'slant',
+				close_command = 'bdelete! %d',
 				numbers = 'ordinal',
 				diagnostics = 'coc',
 				diagnostics_update_in_insert = true,

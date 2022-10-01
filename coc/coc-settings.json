@@ -20,6 +20,16 @@
 	// pyright (puthon3)	
 	"pyright.enable": true,
 	"python.analysis.autoImportCompletions": true,
-	"python.analysis.diagnosticMode": "workspace"
+	"python.analysis.diagnosticMode": "workspace",
+
+	// sh
+  "languageserver": {
+		"bash": {
+			"command": "bash-language-server",
+			"args": ["start"],
+			"filetypes": ["sh"],
+			"ignoredRootPaths": ["~"]
+		}
+  }
 
 }

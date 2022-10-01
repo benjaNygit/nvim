@@ -20,6 +20,7 @@ set splitright
 set t_Co=256
 set nobackup
 set nowritebackup
+set guicursor=
 
 " Actualizar barra cada 250 mili segundos
 set updatetime=250

@@ -10,20 +10,19 @@ Lista de Plugins
 + [ autor-pairs ](https://github.com/jiangmiao/auto-pairs)
 + [ vim-polyglot ](https://github.com/sheerun/vim-polyglot)
 + [ indentLine ](https://github.com/Yggdroot/indentLine)
-+ [ nerdtree ](https://github.com/preservim/nerdtree)
 + [ vim-tmux-navigator ](https://github.com/christoomey/vim-tmux-navigator)
-+ [ vim-easymotion ](https://github.com/easymotion/vim-easymotion)
 + [ vim-javascript ](https://github.com/pangloss/vim-javascript)
 + [ vim-gitgutter ](https://github.com/airblade/vim-gitgutter)
-+ [ nerdtree-git-plugin ](https://github.com/Xuyuanp/nerdtree-git-plugin)
 + [ nerdcommenter ](https://github.com/preservim/nerdcommenter)
 + [ vim-visual-multi ](https://github.com/mg979/vim-visual-multi)
 + [ fzf ](https://github.com/junegunn/fzf)
 + [ golden_size ](https://github.com/dm1try/golden_size)
 + [ coc ](https://github.com/neoclide/coc.nvim)
 + [ayu-vim](https://github.com/Luxed/ayu-vim)
-+ [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
++ [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 + [lualine](https://github.com/nvim-lualine/lualine.nvim)
++ [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
++ [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 + [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 + [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 
@@ -40,5 +39,4 @@ nvim-web-devicons, y este a su ves requiere de instalar una fuente
 que contenga iconos. En mi caso instale una fuente NERD FORT.
 
 + [NERD FORT](https://www.nerdfonts.com/#downloads)
-
 
