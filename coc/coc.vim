@@ -4,6 +4,7 @@
 " coc-html
 " coc-pyright
 " coc-sh
+" coc-clangd
 
 " Some servers have issues with backup files, see #649.
 set nobackup

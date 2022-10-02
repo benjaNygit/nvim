@@ -18,6 +18,15 @@ colorscheme ayu
 " nvim-tree
 lua << END
 require('nvim-tree').setup()
+
+-- cambia cursor a guion al salir de neovim
+vim.cmd
+[[
+    augroup change_cursor
+        au!
+        au ExitPre * :set guicursor=a:hor20
+    augroup END
+]] 
 END
 
 autocmd InsertEnter * set cul
